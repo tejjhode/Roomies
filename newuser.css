@@ -1,0 +1,87 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Edu+TAS+Beginner:wght@500&family=Montserrat:ital,wght@1,500&family=Nosifer&display=swap');
+    body{
+        margin: 2vh;
+        padding: 2vh;
+        font-size: 1em;
+        background-color:cornsilk;
+        text-shadow: 5px 5px 10px;
+        background-image: url(https://lh3.googleusercontent.com/p/AF1QipPdEu7V1ZSMHmmnB_IaIU_TomLR-fGbk3i_Jq-s=s1360-w1360-h1020);
+    }
+    header{
+        margin-left: 30vh;
+        color: rgb(139, 0, 0);
+        text-indent:25vh;
+        text-decoration: underline;
+        text-decoration-color: darkblue;
+        font-family: Nosifer;
+        outline: 2px solid black;
+        background-image: url(https://img.freepik.com/free-photo/abstract-background-illustration-watercolor-blue-green_53876-108704.jpg?w=1800&t=st=1698819871~exp=1698820471~hmac=e94347ed83a8bad51d12ae748fa2139ec231adc0479d0f9d60d4e92cee161ac0);
+        border-radius: 50px;
+        width: 120vh;
+    }
+    main{
+        padding: 2vh;
+        margin: 3vh;
+        text-indent: 350px;
+        line-height: 0.9cm;
+        font-family:Edu TAS Beginner;
+        
+    }
+    form{
+        margin-left: 20vh;
+        border:2px solid black;
+        box-shadow: 5px 15px 20px gray;
+        width: 130vh;
+        height: 55vh;
+        border-radius: 40px;
+        background-color:rgb(231, 231, 227);
+        opacity:.78;
+        outline: 2px solid black;
+    }
+    @media only screen and (max-width:455px){
+        body{
+            margin: .5vh;
+            padding: .5vh;
+            font-size: 1em;
+            background-color:cornsilk;
+            text-shadow: 5px 5px 10px;
+            background-image: url(https://lh3.googleusercontent.com/p/AF1QipPdEu7V1ZSMHmmnB_IaIU_TomLR-fGbk3i_Jq-s=s1360-w1360-h1020);
+            background-size: cover;
+        }
+        header{
+            position:sticky;
+            margin-left: 0vh;
+            color: rgb(139, 0, 0);
+            text-indent:5vh;
+            text-decoration: underline;
+            text-decoration-color: darkblue;
+            font-family: Nosifer;
+            font-size: 1vh;
+            outline: 2px solid black;
+        
+            background-image: url(https://img.freepik.com/free-photo/abstract-background-illustration-watercolor-blue-green_53876-108704.jpg?w=1800&t=st=1698819871~exp=1698820471~hmac=e94347ed83a8bad51d12ae748fa2139ec231adc0479d0f9d60d4e92cee161ac0);
+            border-radius: 50px;
+            width: 45vh;
+        }
+        main{
+            text-indent: .50vh;
+            line-height: vh;
+            font-family:Edu TAS Beginner;
+            font-size: 2vh;
+        }
+        form{
+            margin-left: 0vh;
+            border:2px solid black;
+            overflow:scroll;
+            box-shadow: 0.5vh 1.5vh 2.0px gray;
+            width: 40vh;
+            height: 75vh;
+            width: 37vh;
+            height: 55vh;
+            border-radius: 4vh;
+            background-color:rgb(231, 231, 227);
+            opacity:.78;
+            outline: 0px solid black;
+        }
+    }

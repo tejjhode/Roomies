@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@300&family=Roboto+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Agbalumo&family=Roboto+Condensed:wght@500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Agbalumo&family=Reenie+Beanie&family=Roboto+Condensed:wght@500&family=Shadows+Into+Light&display=swap');
+  body{
+      margin: 5vh;
+      padding: 5vh;
+      font-size: large;
+      background-color: antiquewhite;
+      background-image: url(https://lh3.googleusercontent.com/p/AF1QipNjHzC_DpB-av3L91wFQlx2aeaR6DXel9-ayI5L=s1360-w1360-h1020);
+      
+  }
+  main{
+      margin:  30vh auto;
+      padding: 5vh auto;
+      border: 2px solid black;
+      width:400px;
+    background-color: black;
+    opacity:.83;
+    font-size: 1em;
+    box-shadow: 25px 30px 45px gray;
+    text-shadow: 2px 2px 4px;
+    border-radius: 35px;
+     
+  }
+  
+  h1{
+      
+      color: darkred;
+      text-decoration: underline;
+      text-decoration-color: black;
+      text-indent: 50px;
+      font-family: Roboto Condensed;
+      
+  }
+  .username{
+      color: darkcyan;
+      text-indent: 90px;
+      text-transform: capitalize;
+      line-height: 20px;
+      font-family:Playpen Sans;
+  }
+  .password{
+      color: green;
+      text-indent: 90px;
+      text-transform: capitalize;
+      font-family:Playpen Sans;
+      
+  }
+  .submit{
+      text-indent: 120px;
+      font-family: Reenie Beanie;
+      
+  }
+  p{
+      color: rgb(149, 175, 4);
+      text-indent: 60px;
+      font-family:Advent Pro ;
+  }
+  @media only screen and (max-width:455px){
+      body{
+          margin: 0vh;
+          padding: 0vh;
+          font-size: large;
+          background-color: antiquewhite;
+          background-image: url(https://lh3.googleusercontent.com/p/AF1QipNjHzC_DpB-av3L91wFQlx2aeaR6DXel9-ayI5L=s1360-w1360-h1020);
+          background-size:cover ;
+      }
+      main{
+          margin:  30vh auto;
+          padding: 5vh auto;
+          border: 2px solid black;
+          width:30vh;
+        background-color: black;
+        opacity:.83;
+        box-shadow: 25px 30px 45px gray;
+        text-shadow: 2px 2px 4px;
+        border-radius: 35px;
+         
+      }
+              
+  h1{
+      
+      color: darkred;
+      text-decoration: underline;
+      text-decoration-color: black;
+      text-indent: 2.5vh;
+      font-family: Roboto Condensed;
+      
+  }
+  .username{
+      color: darkcyan;
+      text-indent: 2vh;
+      text-transform: capitalize;
+      line-height: 2vh;
+      font-family:Playpen Sans;
+  }
+  .password{
+      color: green;
+      text-indent: 2vh;
+      text-transform: capitalize;
+      font-family:Playpen Sans;
+      
+  }
+  .submit{
+      text-indent: 6vh;
+      font-family: Reenie Beanie;
+      
+  }
+  p{
+      color: rgb(149, 175, 4);
+      text-indent: 3vh;
+      font-family:Advent Pro ;
+  }  
+
+  }
+  @media only screen and (max-height:900px){
+    body{
+        margin: 0vh;
+        padding: 0vh;
+        font-size: large;
+        background-color: antiquewhite;
+        background-image: url(https://lh3.googleusercontent.com/p/AF1QipNjHzC_DpB-av3L91wFQlx2aeaR6DXel9-ayI5L=s1360-w1360-h1020);
+        background-size:cover ;
+    }
+    main{
+        margin:  30vh auto;
+        padding: 5vh auto;
+        border: 2px solid black;
+        width:40vh;
+      background-color: black;
+      opacity:.83;
+      box-shadow: 25px 30px 45px gray;
+      text-shadow: 2px 2px 4px;
+      border-radius: 35px;
+       
+    }
+            
+h1{
+    
+    color: darkred;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-indent: 2vh;
+    font-family: Roboto Condensed;
+    
+}
+.username{
+    color: darkcyan;
+    text-indent: 2vh;
+    text-transform: capitalize;
+    line-height: 2vh;
+    font-family:Playpen Sans;
+}
+.password{
+    color: green;
+    text-indent: 2vh;
+    text-transform: capitalize;
+    font-family:Playpen Sans;
+    
+}
+.submit{
+    text-indent: 6vh;
+    font-family: Reenie Beanie;
+    
+}
+p{
+    color: rgb(149, 175, 4);
+    text-indent: 30px;
+    font-family:Advent Pro ;
+}  
+
+}

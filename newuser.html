@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New user</title>
+    <link rel="stylesheet" href="newuser.css">
+</head>
+
+<body>
+    <header>
+        <h1>Create a new account</h1>
+    </header>
+    <main>
+        <form action="post">
+        <div class="name">
+        <label for="">Enter Your Name</label>
+        <input type="text" id="name" placeholder="Your Name">
+    </div>
+    <div class="Number">
+       <label for=" Contect Number"> Contect Number</label>
+       <input type="text" id=" Contect Number" placeholder="Phone Number">
+    </div>
+    <div class="email">
+        <label for="">Email Id</label>
+        <input type="email" id="email" placeholder="abc@xyz.com">
+    </div>
+    <div class="DOB">
+        <label for="date Of Brith">Date Of Birth</label>
+        <input type="date" name="DOB" id="DOB" placeholder="DD/MM/YYYY">
+    </div>
+    <div class="gender">
+      <label for="">Gender:-</label>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other" value="other>
+      <label for="Other">Other</label>
+    </div>
+    <div class="Branch">
+        <label for="Name">Branch</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Branch">   
+    </div>
+    <div class="Roll">
+        <label for="Name">Enrollment Number</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Enrollment">   
+    </div>
+    <div class="Semester">
+        <label for="">Semester</label>
+        <select name="Semester" id="Semester">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            
+        </select>
+    </div>
+    <div class="password">
+        <label for="password">Enter password</label>
+        <input type="password" name="password" id="password" placeholder="Create Password">
+        </div><div class="confirm ">
+        <label for="password">Confirm password</label>
+        <input type="password" name="password" id="password" placeholder="Confirm Password">
+
+    </div>
+    <div class="terms">
+        <input type="checkbox" name="terms" id="terms" value="yes">
+        <label for="Terms">I have read and agreed to the Terms & Condition*</label>
+    </div>
+    <div class="buttons">
+        <a href="login.html" target="_blank" rel="noopener noreferrer">
+        <input type="submit" value="submit" ></a>
+        <input type="reset" value="reset">
+    </div>
+    </main>
+</form>
+</body>
+</html>

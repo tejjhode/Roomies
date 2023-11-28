@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/* Nav Bar */
+.navbar{
+    height: 7vh;
+    width: 100%;
+    background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-p4y8j8ysb3w8r2rym9sadz986l9vue47e31481z5xg.jpeg);
+    background-color: rgb(56, 110, 113);
+    display: flex;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+     border: 2px solid white;
+     background-color:rgb(221, 138, 158);
+     box-shadow: 2px 10px 15px;
+}
+.logo{
+    background-image: url(roomies.png);
+    background-size:cover;
+    height: 8vh;
+    width: 10vh; 
+    
+}
+.home{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+    padding-top: 3vh;
+
+}
+.home p{
+    padding-top: 1vh;
+    margin-left: 1vh;
+    font-family: fantasy;
+}
+.search{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+    padding-top: 3vh;
+
+}
+.search p{
+    padding-top: 1vh;
+    margin-left: 1vh;
+    font-family: fantasy;
+}
+.create{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+    padding-top: 3vh;
+
+}
+.create p{
+    padding-top: 1vh;
+    margin-left: 1vh;
+    font-family: fantasy;
+}
+.create i{
+    border: 2px solid white;
+}
+.notification{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+    padding-top: 3vh;
+
+}
+.notification p{
+    padding-top: 1vh;
+    margin-left: 1vh;
+    font-family: fantasy;
+}
+.message{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+    padding-top: 3vh;
+
+}
+.message p{
+    padding-top: 1vh;
+    margin-left: 1vh;
+    font-family: fantasy;
+}
+.aboutus{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+    padding-top: 3vh;
+
+}
+.aboutus p{
+    padding-top: 1vh;
+    margin-left: 1vh;
+    font-family: fantasy;
+}
+.login{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50vh;
+    padding-top: 3vh;
+
+}
+.login i{
+    font-size: 1.5rem;
+}
+.login a{
+    padding-top: 1vh;
+    margin-left: 1vh;
+    font-family: fantasy;
+    font-size: 0.67rem;
+}
+/* sidebar */
+.sidebar{
+   
+    height: 100vh;
+    width: 6vh;
+    background-color:rgb(28, 27, 26);
+    color: aliceblue;
+    position:absolute;
+    top: 7vh;
+    left:-4.5vh; 
+    padding: 0vh 1.5vh;
+    opacity:.95;
+    
+    justify-content: center;
+    transition: width 0.5s;
+}
+
+.i{
+    margin: 0vh;
+    padding-top: 3vh;
+    display: flex;
+    font-size: 1.2rem;
+}
+.profile p{
+    overflow: hidden;
+    padding-left: 2vh;
+}
+.myimg{
+    display: flex;
+    margin-top: 0vh;
+    /* border: 2px solid black; */
+    border-radius: 10vh;
+    background-image: url(Mypic.jpeg);
+    background-size: cover;
+    height:6vh ;
+    width: 6vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon{
+    margin: 0vh;
+    padding-top: 2vh;
+    display: flex;
+    font-size: 1.1rem;
+}
+.icon p{
+    padding-top: 2vh;
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.dashbord{
+    margin: 0vh;
+    padding-top: 3vh;
+    display: flex;
+    font-size: 1.2rem;
+    
+}
+.dashbord p{
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.setting{
+    display: flex;
+    margin: 0vh;
+    padding-top: 3vh;
+    font-size: 1.2rem;
+}
+.setting p{
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.activity{
+    display: flex;
+    margin: 0vh;
+    padding-top: 3vh;
+    font-size: 1.2rem;
+}
+.activity p{
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.friends{
+    display: flex;
+    margin: 0vh;
+    padding-top: 3vh;
+    font-size: 1.2rem;
+}
+.friends p{
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.help{
+    display: flex;
+    margin: 0vh;
+    padding-top: 3vh;
+    font-size: 1.2rem;
+}
+.help p{
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.feedback{
+    display: flex;
+    margin: 0vh;
+    padding-top: 3vh;
+    font-size: 1.2rem;
+}
+.feedback p{
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.logout{
+    display: flex;
+    margin: 0vh;
+    padding-top: 3vh;
+    font-size: 1.2rem;
+}
+.logout p{
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.more{
+    display: flex;
+    margin: 0vh;
+    padding-top: 33vh;
+    font-size: 1.2rem;
+    padding-left: 5vh;
+
+}
+.more p{
+    padding-left: 2vh;
+    overflow: hidden;
+}
+.sideborder{
+    border: 2px solid transparent;
+}
+.sideborder:hover{
+    border: 2px solid brgb(63, 60, 60);
+    background-color: rgb(63, 60, 60);
+   
+}
+.sidebar:hover{
+    width: 26vh;
+}
+ ul li{
+    justify-content: flex-start;
+}
+
+/* Main */
+main{
+    margin-left: 4vh;
+    background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.main_content{
+    margin-left: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0vh ;
+    
+    
+}
+.hero-sec{
+    /* background-image: url(hero.jpeg);
+    background-size:cover; */
+    height: 40vh;
+    width: 100%;
+}
+.box{
+    border: 2px solid black;
+    height: 20vh;
+    width: 45vh;
+    margin-left: 9vh;
+    margin-top: 4vh;
+    box-shadow: -9px 15px 20px;
+    background-color:#232F3E;
+    cursor:pointer;
+    color: white;
+    
+}
+.rajuimg{
+    border: 2px solid black;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 10vh;
+    margin:1vh;
+    background-image: url(raju13t.jpeg);
+    background-size: cover;
+}
+.rajucontent{
+   margin-left:1vh;
+   
+}
+ p{
+    font-size: 1rem;
+}
+i{
+    font-size: 0.8rem;
+}
+
+.yugalimg{
+    border: 2px solid black;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 10vh;
+    margin:1vh;
+    background-image: url(yugal9t.jpeg);
+    background-size: cover;
+
+}
+.vishwasimg{
+    border: 2px solid black;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 10vh;
+    margin:1vh;
+    background-image: url(vishwas3t.jpeg);
+    background-size: cover;
+
+}
+.vivekimg{
+    border: 2px solid black;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 10vh;
+    margin:1vh;
+    background-image: url(vivek\ 1t.jpeg);
+    background-size: cover;
+
+}
+.prathamimg{
+    border: 2px solid black;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 10vh;
+    margin:1vh;
+    background-image: url(pratham1.jpeg);
+    background-size: cover;
+
+}
+.yashimg{
+    border: 2px solid black;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 10vh;
+    margin:1vh;
+    background-image: url(hero.jpeg);
+    background-size: cover;
+
+}
+.details{
+    display: flex;
+}
+.list{
+    display: flex;
+    margin-top: 6vh;
+    margin-left: 2vh;
+       
+}
+
+.followers{
+    font-size:1rem;
+    margin-left: 4vh;
+}
+.followers a{
+margin-left: 2vh;
+
+}
+.followers p{
+    margin-top: .5vh;
+    font-size: 1.6vh;
+}
+.post{
+    font-size:1rem;
+}
+.post a{
+margin-left: 1vh;
+}
+.post p{
+    margin-top: .5vh;
+}
+.following{
+    font-size:1rem;
+    margin-left: 3vh;
+}
+.following a{
+margin-left: 2vh;
+
+}
+.following p{
+    margin-top: .5vh;
+    font-size: 1rem;
+}
+button{
+    display: flex;
+ margin-top:1vh ;
+ margin-left: 6vh;
+ width: 25vh;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(90, 189, 225);
+ border-radius: 2vh;
+}
+.lower{
+    display: flex;
+}
+.follow p{
+    margin-left: 1vh;
+}
+.hover{
+    border: 2px solid transparent;
+}
+.hover:hover{
+    border: 2px solid black;
+    background-color: black;
+}

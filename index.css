@@ -4,27 +4,33 @@
     border: border-box;
 }
 /* Nav Bar */
+header{
+    position:sticky;
+    top: 0vh;
+}
 .navbar{
     height: 7vh;
     width: 100%;
     background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-p4y8j8ysb3w8r2rym9sadz986l9vue47e31481z5xg.jpeg);
     background-color: rgb(56, 110, 113);
     display: flex;
+    /* margin-left: 5vh; */
+
 }
 .border{
     border: 2px solid transparent;
 }
 .border:hover{
-     border: 2px solid white;
-     background-color:rgb(221, 138, 158);
-     box-shadow: 2px 10px 15px;
+     background-color:rgb(104, 108, 110);
+     
 }
+
 .logo{
     background-image: url(roomies.png);
     background-size:cover;
     height: 8vh;
     width: 10vh; 
-    
+
 }
 .home{
     color:white;
@@ -139,8 +145,7 @@
 }
 /* sidebar */
 .sidebar{
-   
-    height: 100vh;
+    height: 100%;
     width: 6vh;
     background-color:rgb(28, 27, 26);
     color: aliceblue;
@@ -291,7 +296,7 @@ main{
     margin-left: 4vh;
     background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
     background-size: cover;
-    height: 100vh;
+    height:100vh;
 }
 .main_content{
     margin-left: 1vh;
@@ -302,21 +307,35 @@ main{
     
 }
 .hero-sec{
-    /* background-image: url(hero.jpeg);
-    background-size:cover; */
+     background-image: url(mix3.jpeg);
+    background-size:cover;
     height: 40vh;
     width: 100%;
+    border: 5px solid white;
+    border-radius: .5vhvh;
+    
 }
+.signs{
+    color: white;
+}
+.dots{
+    margin-top: 33vh;
+    margin-left: 50%;
+}
+
+
+
 .box{
     border: 2px solid black;
     height: 20vh;
     width: 50vh;
     margin-left: 5vh;
     margin-top: 4vh;
-    box-shadow: -9px 15px 20px;
+    box-shadow: -9px 15px 20px 5px;
     background-color:#232F3E;
     cursor:pointer;
     color: white;
+    border-radius: 1vh;
     
 }
 .rajuimg{
@@ -454,4 +473,35 @@ button{
 .hover:hover{
     border: 2px solid black;
     background-color: black;
+}
+/**Footer**/
+footer{
+    margin-top: 0vh;
+}
+.foot-panel1{
+    background-color: #6a727a;
+    color: white;
+    height: 5vh;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    height: 8vh;
+    color: #cccccc;
+    font-size: 0.7 rem;
+
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 2.5vh ;
+}
+.copyright{
+    margin-top: .5vh;
+    font-size: 0.7rem  ;
+    text-align: center;
 }

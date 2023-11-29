@@ -146,7 +146,7 @@
     color: aliceblue;
     position:absolute;
     top: 7vh;
-    left:-4.5vh; 
+    left:-4vh; 
     padding: 0vh 1.5vh;
     opacity:.95;
     
@@ -280,7 +280,7 @@
    
 }
 .sidebar:hover{
-    width: 26vh;
+    width: 30vh;
 }
  ul li{
     justify-content: flex-start;
@@ -310,8 +310,8 @@ main{
 .box{
     border: 2px solid black;
     height: 20vh;
-    width: 45vh;
-    margin-left: 9vh;
+    width: 50vh;
+    margin-left: 5vh;
     margin-top: 4vh;
     box-shadow: -9px 15px 20px;
     background-color:#232F3E;

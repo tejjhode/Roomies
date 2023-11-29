@@ -14,8 +14,6 @@ header{
     background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-p4y8j8ysb3w8r2rym9sadz986l9vue47e31481z5xg.jpeg);
     background-color: rgb(56, 110, 113);
     display: flex;
-    /* margin-left: 5vh; */
-
 }
 .border{
     border: 2px solid transparent;
@@ -153,8 +151,7 @@ header{
     top: 7vh;
     left:-4vh; 
     padding: 0vh 1.5vh;
-    opacity:.95;
-    
+    opacity:.95; 
     justify-content: center;
     transition: width 0.5s;
 }
@@ -299,11 +296,10 @@ main{
     height:100vh;
 }
 .main_content{
-    margin-left: 1vh;
+    margin-left: 0vh;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0vh ;
-    
+    margin-top: 0vh ;  
     
 }
 .hero-sec{
@@ -312,7 +308,7 @@ main{
     height: 40vh;
     width: 100%;
     border: 5px solid white;
-    border-radius: .5vhvh;
+    border-radius: .5vh;
     
 }
 .signs{
@@ -336,7 +332,6 @@ main{
     cursor:pointer;
     color: white;
     border-radius: 1vh;
-    
 }
 .rajuimg{
     border: 2px solid black;
@@ -504,4 +499,269 @@ footer{
     margin-top: .5vh;
     font-size: 0.7rem  ;
     text-align: center;
+}
+@media only screen and (max-width:455px){
+    .logo{
+        background-image: url(roomies.png);
+        background-size:cover;
+        height: 0px;
+        width: 0px; 
+    
+    }
+    .navbar{
+        height: 5vh;
+        width: 100%;
+        background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-p4y8j8ysb3w8r2rym9sadz986l9vue47e31481z5xg.jpeg);
+        background-color: rgb(56, 110, 113);
+        display: flex;
+    }
+    
+.home{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5vh;
+    padding-top: 1.5vh;
+
+}
+.home p{
+    padding-top: 1vh;
+    margin-left: 0vh;
+    font-size: 10px;
+}
+.home p{
+    font-size: 10px;
+}
+.search{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5vh;
+    padding-top: 1.5vh;
+
+}
+.search p{
+    padding-top: 1vh;
+    margin-left: 0vh;
+    font-family: fantasy;
+    font-size: 10px;
+}
+.search p{
+    font-size: 10px;
+}
+.create{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5vh;
+    padding-top: 1.5vh;
+
+}
+.create p{
+    padding-top: 1vh;
+    margin-left: 0vh;
+    font-family: fantasy;
+    font-size: 10px;
+}
+.create i{
+    border: 2px solid white;
+    font-size: 10px;
+}
+.notification{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5vh;
+    padding-top: 1.5vh;
+
+}
+.notification p{
+    padding-top: 1vh;
+    margin-left: 0vh;
+    font-family: fantasy;
+    font-size: 10px;
+}
+.message i{
+    font-size: 10px;
+}
+.message{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5vh;
+    padding-top: 1.5vh;
+
+}
+.message p{
+    padding-top: 1vh;
+    margin-left: 0vh;
+    font-family: fantasy;
+    font-size: 10px;
+}
+.message i{
+    font-size: 10px;
+}
+.aboutus{
+    color:white;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5vh;
+    padding-top: 1.5vh;
+
+}
+.aboutus p{
+    padding-top: .3vh;
+    margin-left: 0vh;
+    font-family: fantasy;
+    font-size: 8px;
+}
+.aboutus i{
+    font-size: 10px;
+}
+.login{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vh;
+    padding-top: 1.5vh;
+
+}
+.login i{
+    font-size: 10px;
+}
+.login a{
+    padding-top: 1vh;
+    margin-left: 0.5vh;
+    font-family: fantasy;
+    font-size: 5px;
+}
+
+/* sidebar */
+.sidebar{
+    top: 5vh;
+    left:-5vh; 
+    height: 115vh;
+}
+.sidebar:hover{
+    width: 20vh;
+}
+.icon p{
+
+    font-size: 10px;
+}
+.myimg{
+    border-radius: 12vh;
+}
+/* Main */
+main{
+    height:100%;
+}
+.hero-sec{
+    background-image: url(mix3.jpeg);
+   background-size:cover;
+   height: 20vh;
+   width: 100vh;
+   border: 5px solid white;
+   border-radius: .5vh;
+   
+}
+.signs{
+    color: white;
+}
+.dots{
+    margin-top: 17vh;
+    margin-left: 40%;
+}
+.box{
+    height: 14vh;
+    width: 35vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
+}
+.rajuimg{
+    border: 2px solid black;
+    height: 6vh;
+    width: 6vh;
+    margin:1vh;
+}
+.list{
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 1vh;
+       
+}
+button{
+ margin-left: 3vh;
+ width: 15vh;
+}
+.followers{
+    font-size:15px;
+    margin-left: 2vh;
+}
+.followers a{
+margin-left: 2vh;
+
+}
+.followers p{
+    margin-top: .5vh;
+    font-size: 1.6vh;
+}
+.post{
+    margin-left: 2vh;
+    font-size:15px;
+}
+.post a{
+margin-left: .5vh;
+}
+.post p{
+    margin-top: .5vh;
+}
+.following{
+    font-size:15px;
+    margin-left: 2vh;
+}
+.following a{
+margin-left: 2vh;
+
+}
+.following p{
+    margin-top: .5vh;
+    font-size: 15px;
+}
+.yugalimg{
+    height: 6vh;
+    width:6vh;
+}
+.vishwasimg{
+    height: 6vh;
+    width:6vh;
+}
+.vivekimg{
+    height: 6vh;
+    width:6vh;
+}
+.prathamimg{
+    height: 6vh;
+    width:6vh;
+}
+.yashimg{
+    height: 6vh;
+    width:6vh;
+}
+/**Footer**/
+footer{
+    margin-top: 2vh;
+}
 }

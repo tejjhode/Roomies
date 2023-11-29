@@ -652,7 +652,7 @@ footer{
 .sidebar{
     top: 5vh;
     left:-5vh; 
-    height: 115vh;
+    height: 83%;
 }
 .sidebar:hover{
     width: 20vh;
@@ -666,6 +666,9 @@ footer{
 }
 /* Main */
 main{
+    margin-left: 4vh;
+    background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
+    background-size: cover;
     height:100%;
 }
 .hero-sec{
@@ -676,6 +679,7 @@ main{
    border: 5px solid white;
    border-radius: .5vh;
    
+   
 }
 .signs{
     color: white;
@@ -685,83 +689,100 @@ main{
     margin-left: 40%;
 }
 .box{
-    height: 14vh;
-    width: 35vh;
+    height: 10vh;
+    width: 19vh;
     margin-left: 1vh;
     margin-top: 1vh;
+    box-shadow: 0px 0px 0px 0px;
 }
 .rajuimg{
     border: 2px solid black;
     height: 6vh;
     width: 6vh;
-    margin:1vh;
+    margin:0vh;
 }
+.rajucontent{
+    margin-left:0vh;
+    
+ }
+  p{
+     font-size: 10px;
+ }
+ i{
+     font-size: 10px;
+ }
 .list{
     display: flex;
-    margin-top: 3vh;
-    margin-left: 1vh;
+    margin-top: 2vh;
+    margin-left: 0vh;
        
 }
 button{
- margin-left: 3vh;
- width: 15vh;
+ margin-left: 1vh;
+ width: 10vh;
 }
 .followers{
-    font-size:15px;
-    margin-left: 2vh;
+    font-size:8px;
+    margin-left: .5vh;
 }
 .followers a{
-margin-left: 2vh;
+margin-left: .5vh;
 
 }
 .followers p{
     margin-top: .5vh;
-    font-size: 1.6vh;
+    font-size: 8px;
 }
 .post{
-    margin-left: 2vh;
-    font-size:15px;
+    margin-left: .5vh;
+    font-size:8px;
 }
 .post a{
 margin-left: .5vh;
 }
 .post p{
     margin-top: .5vh;
+    font-size: 8px;
 }
 .following{
-    font-size:15px;
-    margin-left: 2vh;
+    font-size:8px;
+    margin-left: .5vh;
 }
 .following a{
-margin-left: 2vh;
+margin-left: .5vh;
 
 }
 .following p{
     margin-top: .5vh;
-    font-size: 15px;
+    font-size: 8px;
 }
 .yugalimg{
     height: 6vh;
     width:6vh;
+    margin:0vh;
 }
 .vishwasimg{
     height: 6vh;
     width:6vh;
+    margin:0vh;
 }
 .vivekimg{
     height: 6vh;
     width:6vh;
+    margin:0vh;
 }
 .prathamimg{
     height: 6vh;
     width:6vh;
+    margin:0vh;
 }
 .yashimg{
     height: 6vh;
     width:6vh;
+    margin:0vh;
 }
 /**Footer**/
 footer{
-    margin-top: 2vh;
+    margin-top: 27vh;
 }
 }

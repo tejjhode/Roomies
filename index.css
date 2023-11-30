@@ -715,7 +715,7 @@ footer{
 .sidebar{
     top: 5vh;
     left:-5vh; 
-    height: 110%;
+    height: 115%;
 }
 .sidebar:hover{
     width: 20vh;

@@ -171,7 +171,7 @@ header{
 }
 .myimg{
     display: flex;
-    margin-top: 0vh;
+    margin-top: 1vh;
     /* border: 2px solid black; */
     border-radius: 10vh;
     background-image: url(Mypic.jpeg);
@@ -192,6 +192,7 @@ header{
     padding-top: 2vh;
     padding-left: 2vh;
     overflow: hidden;
+    font-size: 1rem;
 }
 .dashbord{
     margin: 0vh;
@@ -531,7 +532,9 @@ button{
     font-size: 2rem;
     padding-left: 2vh;
 }
-
+.sq:hover{
+    scale: 1.2;
+}
 /**Footer**/
 footer{
     margin-top:20vh;

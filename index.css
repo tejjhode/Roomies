@@ -14,12 +14,14 @@ header{
     background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-p4y8j8ysb3w8r2rym9sadz986l9vue47e31481z5xg.jpeg);
     background-color: rgb(56, 110, 113);
     display: flex;
+    border-radius: .5vh;
 }
 .border{
     border: 2px solid transparent;
 }
 .border:hover{
-     background-color:rgb(104, 108, 110);
+     background-color:rgb(21, 49, 62);
+     border-radius: 1vh;
      
 }
 
@@ -143,7 +145,7 @@ header{
 }
 /* sidebar */
 .sidebar{
-    height: 100%;
+    height: 120%;
     width: 6vh;
     background-color:rgb(28, 27, 26);
     color: aliceblue;
@@ -154,6 +156,7 @@ header{
     opacity:.95; 
     justify-content: center;
     transition: width 0.5s;
+    border-radius: 1vh;
 }
 
 .i{
@@ -279,6 +282,7 @@ header{
 .sideborder:hover{
     border: 2px solid brgb(63, 60, 60);
     background-color: rgb(63, 60, 60);
+    border-radius: 1vh;
    
 }
 .sidebar:hover{
@@ -468,10 +472,69 @@ button{
 .hover:hover{
     border: 2px solid black;
     background-color: black;
+    
 }
+/* Memories */
+.memories{
+    display: flex;
+   margin-left: 6vh;
+   margin-top: 3vh;
+}
+.sq{
+    border: 2px solid black;
+    margin-left: 15vh;
+    height: 25vh;
+    width: 20vh;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.sq1{
+    background-image: url(mix2.jpeg);
+    background-size: 20vh 25vh;
+}
+.trip{
+    margin-top: 20vh;
+    color: white;
+    font-size: 2rem;
+    padding-left: 2vh;
+
+}
+.sq2{
+    background-image: url(Events.jpeg);
+    background-size: 20vh 25vh;
+}
+.shadi{
+    margin-top: 20vh;
+    color: white;
+    font-size: 1.4rem;
+     align-items: center;
+     justify-content: center;
+     padding-left: 1vh;
+}
+.sq3{
+    background-image: url(nightout.jpeg);
+    background-size: cover;
+}
+.nightout{
+    margin-top: 20vh;
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 2vh;
+}
+.sq4{
+    background-image: url(crazy.jpeg);
+    background-size: 20vh 25vh;
+}
+.crazy{
+    margin-top: 20vh;
+    color: white;
+    font-size: 2rem;
+    padding-left: 2vh;
+}
+
 /**Footer**/
 footer{
-    margin-top: 0vh;
+    margin-top:20vh;
 }
 .foot-panel1{
     background-color: #6a727a;
@@ -652,7 +715,7 @@ footer{
 .sidebar{
     top: 5vh;
     left:-5vh; 
-    height: 83%;
+    height: 110%;
 }
 .sidebar:hover{
     width: 20vh;
@@ -781,8 +844,53 @@ margin-left: .5vh;
     width:6vh;
     margin:0vh;
 }
+
+/* Memories */
+.memories{
+    display: flex;
+   margin-left: 0vh;
+   margin-top: 3vh;
+   flex-wrap: wrap;
+}
+.sq{
+    border: 2px solid black;
+    margin-left: 1vh;
+    height: 22vh;
+    width: 18vh;
+    border-radius: 1vh;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+.trip{
+    margin-top: 18vh;
+    color: white;
+    font-size: 2rem;
+    padding-left: 2vh;
+
+}
+.shadi{
+    margin-top: 18vh;
+    color: white;
+    font-size: 2rem;
+    padding-left: 2vh;
+
+}
+.nightout{
+    margin-top: 18vh;
+    color: white;
+    font-size: 2rem;
+    padding-left: 2vh;
+
+}
+.crazy{
+    margin-top: 18vh;
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 1vh;
+
+}
 /**Footer**/
 footer{
-    margin-top: 27vh;
+    margin-top: 2vh;
 }
 }

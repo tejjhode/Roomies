@@ -4,7 +4,7 @@ let next = document.querySelector("#nextClick");
 let next1 = document.querySelector("#next1Click");
 let next2 = document.querySelector("#next2Click");
 let next3 = document.querySelector("#next3Click");
-const follow =document.querySelector(".follower");
+const follow =document.querySelector(".no");
 const Raju = document.querySelector(".followButton");
 const Yugal = document.querySelector(".followYugal");
 const Vishwas = document.querySelector(".followVishwas");
@@ -13,12 +13,14 @@ const Pratham = document.querySelector(".followPratham");
 const Yash = document.querySelector(".followYash");
 let currFollow = "followsB";
 
+
 Raju.addEventListener("click",() =>{
     if(currFollow==="followsB"){
         currFollow="followingsB";
         Raju.classList.add("followingsB");
         Raju.classList.remove("followsB");
         Raju.innerText = "✔️ Following";
+        follow.innerText = "181";
         
     }
     else{
@@ -26,8 +28,11 @@ Raju.addEventListener("click",() =>{
         Raju.classList.add("followsB");
         Raju.classList.remove("followingsB");
         Raju.innerText = "+ Follow";
+        follow.innerText = "180";
+       
     }
 
+   
 })
 Yugal.addEventListener("click",() =>{
     if(currFollow==="followsB"){
@@ -35,6 +40,7 @@ Yugal.addEventListener("click",() =>{
         Yugal.classList.add("followingsB");
         Yugal.classList.remove("followsB");
         Yugal.innerText = "✔️ Following";
+        
         
     }
     else{

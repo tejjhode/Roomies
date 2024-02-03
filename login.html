@@ -9,27 +9,31 @@
 <body>
     <main>
     <h1>Login Here</h1>
+   <form name="myForm" onsubmit="return validateForm()">
     <div class="username">
         <label for="">username</label>
-        <input type="text" id="username" placeholder="Enter your username">
+        <input type="text" id="username" placeholder="Enter your username" name="fname">
     </div>
     <br>
     <div class="password">
         <label for="">password</label>
-        <input type="password" id="password" placeholder="Enter your password">
+        <input type="password" id="password" placeholder="Enter your password" name="pass">
     </div>
+  
     <br>
     <div class="submit">
-     <a href="main.html" target="_blank" rel="noopener noreferrer">
+     <a href="index.html".html" target="_self"noopener noreferrer" class="logedIn">
      <input type="submit" value="Login" style="font-family: Shadows Into Light; "></a> 
     
     <a href="forget.html" rel="noopener noreferrer">
         <input type="submit" value="Forget password" style="padding: 2px;font-family: Shadows Into Light;"></a>
     </div>
+</form>
     <p>Create new account
         <a target="_blank" href="newuser.html">click here</a>
     </p>
 </main>
+<script src="login.js"></script>
 
 </body>
 </html>

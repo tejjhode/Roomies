@@ -1,965 +1,498 @@
 *{
     margin: 0;
-    font-family: Arial;
-    border: border-box;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
 }
-/* Nav Bar */
+html,body{
+    height: 100%;
+    width: 100%;
+}
 header{
-    position:sticky;
+    position: sticky;
     top: 0vh;
 }
-.navbar{
-    height: 7vh;
+
+nav{
+    padding: 2vw 0vw;
     width: 100%;
-    background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-p4y8j8ysb3w8r2rym9sadz986l9vue47e31481z5xg.jpeg);
-    background-color: rgb(56, 110, 113);
     display: flex;
-    border-radius: .5vh;
-}
-.border{
-    border: 2px solid transparent;
-}
-.border:hover{
-    scale: 1.2;
-     
-}
-
-.logo{
-    background-image: url(roomies.png);
-    background-size:cover;
-    height: 8vh;
-    width: 10vh; 
-
-}
-.home{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
     align-items: center;
-    margin-left: 5vh;
-    padding-top: 3vh;
-
-}
-.home p{
-    padding-top: 1vh;
-    margin-left: 1vh;
-    font-family: fantasy;
-}
-.search{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5vh;
-    padding-top: 3vh;
-
-}
-.search p{
-    padding-top: 1vh;
-    margin-left: 1vh;
-    font-family: fantasy;
-}
-.create{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5vh;
-    padding-top: 3vh;
-
-}
-.create p{
-    padding-top: 1vh;
-    margin-left: 1vh;
-    font-family: fantasy;
-}
-.create i{
-    border: 2px solid white;
-}
-.notification{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5vh;
-    padding-top: 3vh;
-
-}
-.notification p{
-    padding-top: 1vh;
-    margin-left: 1vh;
-    font-family: fantasy;
-}
-.message{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5vh;
-    padding-top: 3vh;
-
-}
-.message p{
-    padding-top: 1vh;
-    margin-left: 1vh;
-    font-family: fantasy;
-}
-.aboutus{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5vh;
-    padding-top: 3vh;
-
-}
-.aboutus p{
-    padding-top: 1vh;
-    margin-left: 1vh;
-    font-family: fantasy;
-}
-.login{
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50vh;
-    padding-top: 3vh;
-
-}
-.login i{
-    font-size: 1.5rem;
-}
-.login a{
-    padding-top: 1vh;
-    margin-left: 1vh;
-    font-family: fantasy;
-    font-size: 0.67rem;
-}
-/* sidebar */
-.sidebar{
-    height: 120%;
-    width: 6vh;
-    background-color:white;
-    color: black;
-    position:absolute;
-    top: 7vh;
-    left:-4vh; 
-    padding: 0vh 1.5vh;
-    opacity:.95; 
-    justify-content: center;
-    transition: width 0.5s;
-    border-radius: 1vh;
-}
-
-.i{
-   
-    margin: 0vh;
-    padding-top: 3vh;
-    display: flex;
-    font-size: 1.2rem;
-}
-.profile p{
-    overflow: hidden;
-    padding-left: 2vh;
-}
-.myimg{
-    display: flex;
-    margin-top: 1vh;
-    /* border: 2px solid black; */
-    border-radius: 10vh;
-    background-image: url(Mypic.jpeg);
-    background-size: cover;
-    height:6vh ;
-    width: 6vh;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-.icon{
-    margin: 0vh;
-    padding-top: 2vh;
-    display: flex;
-    font-size: 1.1rem;
-}
-.icon p{
-    padding-top: 2vh;
-    padding-left: 2vh;
-    overflow: hidden;
-    font-size: 1rem;
-}
-.dashbord{
-    margin: 0vh;
-    padding-top: 3vh;
-    display: flex;
-    font-size: 1.2rem;
-    
-}
-.dashbord p{
-    padding-left: 2vh;
-    overflow: hidden;
-}
-.setting{
-    display: flex;
-    margin: 0vh;
-    padding-top: 3vh;
-    font-size: 1.2rem;
-}
-.setting p{
-    padding-left: 2vh;
-    overflow: hidden;
-}
-.activity{
-    display: flex;
-    margin: 0vh;
-    padding-top: 3vh;
-    font-size: 1.2rem;
-}
-.activity p{
-    padding-left: 2vh;
-    overflow: hidden;
-}
-.friends{
-    display: flex;
-    margin: 0vh;
-    padding-top: 3vh;
-    font-size: 1.2rem;
-}
-.friends p{
-    padding-left: 2vh;
-    overflow: hidden;
-}
-.help{
-    display: flex;
-    margin: 0vh;
-    padding-top: 3vh;
-    font-size: 1.2rem;
-}
-.help p{
-    padding-left: 2vh;
-    overflow: hidden;
-}
-.feedback{
-    display: flex;
-    margin: 0vh;
-    padding-top: 3vh;
-    font-size: 1.2rem;
-}
-.feedback p{
-    padding-left: 2vh;
-    overflow: hidden;
-}
-.logout{
-    display: flex;
-    margin: 0vh;
-    padding-top: 3vh;
-    font-size: 1.2rem;
-}
-.logout p{
-    padding-left: 2vh;
-    overflow: hidden;
-}
-.more{
-    display: flex;
-    margin: 0vh;
-    padding-top: 33vh;
-    font-size: 1.2rem;
-    padding-left: 5vh;
-
-}
-.more p{
-    padding-left: 2vh;
-    overflow: hidden;
-}
-.sideborder{
-    border: 2px solid transparent;
-}
-.sideborder:hover{
-    border: 2px solid brgb(63, 60, 60);
-    background-color: rgb(63, 60, 60);
-    border-radius: 1vh;
+    justify-content: space-between;
    
 }
-.sidebar:hover{
-    width: 30vh;
-}
- ul li{
-    justify-content: flex-start;
-}
-
-/* Main */
-main{
-    margin-left: 4vh;
-    background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
-    background-size: cover;
-    height:100vh;
-}
-.main_content{
-    margin-left: 0vh;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0vh ;  
-    
-}
-.hero-sec{
-     background-image: url(hero_1.jpeg);
-    background-size:contain;
-    height: 40vh;
-    width: 100%;
-    border: 5px solid white;
-    border-radius: .5vh;
-    
-}
-.signs{
-    color: white;
-}
-.dots{
-    margin-top: 33vh;
-    margin-left: 50%;
-}
-i{
-    cursor: pointer;
-}
-
-
-
-.box{
-    border: 2px solid black;
-    height: 20vh;
-    width: 50vh;
-    margin-left: 5vh;
-    margin-top: 4vh;
-    box-shadow: -9px 15px 20px 5px;
-    background-color:#232F3E;
-    cursor:pointer;
-    color: white;
-    border-radius: 1vh;
-}
-.rajuimg{
-    border: 2px solid black;
-    height: 12vh;
-    width: 12vh;
-    border-radius: 10vh;
-    margin:1vh;
-    background-image: url(raju13t.jpeg);
-    background-size: cover;
-}
-.rajucontent{
-   margin-left:1vh;
-   
-}
- p{
-    font-size: 1rem;
-}
-i{
-    font-size: 0.8rem;
-}
-
-.yugalimg{
-    border: 2px solid black;
-    height: 12vh;
-    width: 12vh;
-    border-radius: 10vh;
-    margin:1vh;
-    background-image: url(yugal9t.jpeg);
-    background-size: cover;
-
-}
-.vishwasimg{
-    border: 2px solid black;
-    height: 12vh;
-    width: 12vh;
-    border-radius: 10vh;
-    margin:1vh;
-    background-image: url(vishwas3t.jpeg);
-    background-size: cover;
-
-}
-.vivekimg{
-    border: 2px solid black;
-    height: 12vh;
-    width: 12vh;
-    border-radius: 10vh;
-    margin:1vh;
-    background-image: url(vivek\ 1t.jpeg);
-    background-size: cover;
-
-}
-.prathamimg{
-    border: 2px solid black;
-    height: 12vh;
-    width: 12vh;
-    border-radius: 10vh;
-    margin:1vh;
-    background-image: url(pratham1.jpeg);
-    background-size: cover;
-
-}
-.yashimg{
-    border: 2px solid black;
-    height: 12vh;
-    width: 12vh;
-    border-radius: 10vh;
-    margin:1vh;
-    background-image: url(hero.jpeg);
-    background-size: cover;
-
-}
-.details{
-    display: flex;
-}
-.list{
-    display: flex;
-    margin-top: 6vh;
-    margin-left: 2vh;
-       
-}
-
-.followers{
-    font-size:1rem;
-    margin-left: 4vh;
-}
-.followers a{
-margin-left: 2vh;
-
-}
-.followers p{
-    margin-top: .5vh;
-    font-size: 1.6vh;
-}
-.post{
-    font-size:1rem;
-}
-.post a{
-margin-left: 1vh;
-}
-.post p{
-    margin-top: .5vh;
-}
-.following{
-    font-size:1rem;
-    margin-left: 3vh;
-}
-.following a{
-margin-left: 2vh;
-
-}
-.following p{
-    margin-top: .5vh;
-    font-size: 1rem;
-}
-button{
-    display: flex;
- margin-top:1vh ;
- margin-left: 6vh;
- width: 25vh;
- justify-content: center;
- align-items: center;
- background-color: rgb(90, 189, 225);
- border-radius: 2vh;
-}
-.lower{
-    display: flex;
-}
-.follow p{
-    margin-left: 1vh;
-}
-.hover{
-    border: 2px solid transparent;
-}
-.hover:hover{
-    border: 2px solid black;
-    background-color: black;
-    
-}
-/* Memories */
-.memories{
-    display: flex;
-   margin-left: 6vh;
-   margin-top: 3vh;
-}
-.sq{
-    border: 2px solid black;
-    margin-left: 15vh;
-    height: 25vh;
-    width: 20vh;
-    border-radius: 1vh;
-    cursor: pointer;
-    transition: .5s;
-}
-.sq1{
-    background-image: url(mix2.jpeg);
-    background-size: 20vh 25vh;
-}
-.trip{
-    margin-top: 20vh;
-    color: white;
-    font-size: 2rem;
-    padding-left: 2vh;
-
-}
-.sq2{
-    background-image: url(Events.jpeg);
-    background-size: 20vh 25vh;
-}
-.shadi{
-    margin-top: 20vh;
-    color: white;
-    font-size: 1.4rem;
-     align-items: center;
-     justify-content: center;
-     padding-left: 1vh;
-}
-.sq3{
-    background-image: url(nightout.jpeg);
-    background-size: cover;
-}
-.nightout{
-    margin-top: 20vh;
-    color: white;
-    font-size: 1.7rem;
-    padding-left: 2vh;
-}
-.sq4{
-    background-image: url(crazy.jpeg);
-    background-size: 20vh 25vh;
-}
-.crazy{
-    margin-top: 20vh;
-    color: white;
-    font-size: 2rem;
-    padding-left: 2vh;
-}
-.sq:hover{
-    scale: 1.2;
-    
-}
-/**Footer**/
-footer{
-    margin-top:20vh;
-}
-.foot-panel1{
-    background-color: #6a727a;
-    color: white;
-    height: 5vh;
-    display:flex; 
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.foot-panel4{
-    background-color: #0f1111;
-    height: 8vh;
-    color: #cccccc;
-    font-size: 0.7 rem;
-
-}
-.pages{
-    font-size: 0.7rem;
-    text-align: center;
-    padding-top: 2.5vh ;
-}
-.copyright{
-    margin-top: .5vh;
-    font-size: 0.7rem  ;
-    text-align: center;
-}
-@media only screen and (max-width:455px){
-    .logo{
-        background-image: url(roomies.png);
-        background-size:cover;
-        height: 0px;
-        width: 0px; 
-    
-    }
-    .navbar{
-        height: 5vh;
-        width: 100%;
-        background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-p4y8j8ysb3w8r2rym9sadz986l9vue47e31481z5xg.jpeg);
-        background-color: rgb(56, 110, 113);
-        display: flex;
-    }
-    
-.home{
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0.5vh;
-    padding-top: 1.5vh;
-
-}
-.home p{
-    padding-top: 1vh;
-    margin-left: 0vh;
-    font-size: 10px;
-}
-.home p{
-    font-size: 10px;
-}
-.search{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0.5vh;
-    padding-top: 1.5vh;
-
-}
-.search p{
-    padding-top: 1vh;
-    margin-left: 0vh;
-    font-family: fantasy;
-    font-size: 10px;
-}
-.search p{
-    font-size: 10px;
-}
-.create{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: .5vh;
-    padding-top: 1.5vh;
-
-}
-.create p{
-    padding-top: 1vh;
-    margin-left: 0vh;
-    font-family: fantasy;
-    font-size: 10px;
-}
-.create i{
-    border: 2px solid white;
-    font-size: 10px;
-}
-.notification{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: .5vh;
-    padding-top: 1.5vh;
-
-}
-.notification p{
-    padding-top: 1vh;
-    margin-left: 0vh;
-    font-family: fantasy;
-    font-size: 10px;
-}
-.message i{
-    font-size: 10px;
-}
-.message{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: .5vh;
-    padding-top: 1.5vh;
-
-}
-.message p{
-    padding-top: 1vh;
-    margin-left: 0vh;
-    font-family: fantasy;
-    font-size: 10px;
-}
-.message i{
-    font-size: 10px;
-}
-.aboutus{
-    color:white;
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: .5vh;
-    padding-top: 1.5vh;
-
-}
-.aboutus p{
-    padding-top: .3vh;
-    margin-left: 0vh;
-    font-family: fantasy;
-    font-size: 8px;
-}
-.aboutus i{
-    font-size: 10px;
-}
-.login{
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2vh;
-    padding-top: 1.5vh;
-
-}
-.login i{
-    font-size: 10px;
-}
-.login a{
-    padding-top: 1vh;
-    margin-left: 0.5vh;
-    font-family: fantasy;
-    font-size: 5px;
-}
-
-/* sidebar */
-.sidebar{
-    top: 5vh;
-    left:-5vh; 
-    height: 115%;
-}
-.sidebar:hover{
-    width: 20vh;
-}
-.icon p{
-
-    font-size: 10px;
-}
-.myimg{
-    border-radius: 12vh;
-}
-/* Main */
-main{
-    margin-left: 4vh;
-    background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
-    background-size: cover;
-    height:100%;
-}
-.hero-sec{
-    background-image: url(mix3.jpeg);
-   background-size:cover;
-   height: 20vh;
-   width: 100vh;
-   border: 5px solid white;
-   border-radius: .5vh;
-   
-   
-}
-.signs{
-    color: white;
-}
-.dots{
-    margin-top: 17vh;
-    margin-left: 40%;
-}
-.box{
+img{
+   width: 12vh;
     height: 10vh;
-    width: 19vh;
-    margin-left: 1vh;
-    margin-top: 1vh;
-    box-shadow: 0px 0px 0px 0px;
-}
-.rajuimg{
-    border: 2px solid black;
-    height: 6vh;
-    width: 6vh;
-    margin:0vh;
-}
-.rajucontent{
-    margin-left:0vh;
     
- }
-  p{
-     font-size: 10px;
- }
- i{
-     font-size: 10px;
- }
-.list{
-    display: flex;
-    margin-top: 2vh;
-    margin-left: 0vh;
-       
 }
-button{
- margin-left: 1vh;
- width: 10vh;
-}
-.followers{
-    font-size:8px;
-    margin-left: .5vh;
-}
-.followers a{
-margin-left: .5vh;
-
-}
-.followers p{
-    margin-top: .5vh;
-    font-size: 8px;
-}
-.post{
-    margin-left: .5vh;
-    font-size:8px;
-}
-.post a{
-margin-left: .5vh;
-}
-.post p{
-    margin-top: .5vh;
-    font-size: 8px;
-}
-.following{
-    font-size:8px;
-    margin-left: .5vh;
-}
-.following a{
-margin-left: .5vh;
-
-}
-.following p{
-    margin-top: .5vh;
-    font-size: 8px;
-}
-.yugalimg{
-    height: 6vh;
-    width:6vh;
-    margin:0vh;
-}
-.vishwasimg{
-    height: 6vh;
-    width:6vh;
-    margin:0vh;
-}
-.vivekimg{
-    height: 6vh;
-    width:6vh;
-    margin:0vh;
-}
-.prathamimg{
-    height: 6vh;
-    width:6vh;
-    margin:0vh;
-}
-.yashimg{
-    height: 6vh;
-    width:6vh;
-    margin:0vh;
+.profile-sidebaar{
+    display: none;
 }
 
-/* Memories */
-.memories{
-    display: flex;
-   margin-left: 0vh;
-   margin-top: 3vh;
-   flex-wrap: wrap;
+.close{
+   display: none;
+   
+    
 }
-.sq{
-    border: 2px solid black;
-    margin-left: 1vh;
-    height: 22vh;
-    width: 18vh;
-    border-radius: 1vh;
-    cursor: pointer;
-    margin-top: 2vh;
+.closeA{
+    display: none;
 }
-.trip{
-    margin-top: 18vh;
-    color: white;
-    font-size: 1.5rem;
-    padding-left: 2vh;
+.closeN{
+    display: none;
+}
+.closeC{
+      animation-name: closechats;
+    animation-duration: 3s;
+    display: none;
+}
+.notification-sidebar{
+    display: inline;
+    border: 1px solid black;
+    height: 26.5vh;
+    width: 17vh;
+    position:absolute;
+   left: 82.5vh;
+   z-index: 10;
+   top: 11vh;
+   border-radius: 15px;
+   background-color: white;
+  transition: all ease 1s;
+  justify-items: center;
+  align-items: center;
+  transition: all ease 1s;
+  overflow: hidden;
 
 }
-.shadi{
-    margin-top: 15vh;
-    color: white;
-    font-size: 1.5rem;
-    padding-left: 2vh;
-
-}
-.nightout{
-    margin-top: 18vh;
-    color: white;
-    font-size: 1.5rem;
-    padding-left: 2vh;
-
-}
-.crazy{
-    margin-top: 18vh;
-    color: white;
-    font-size: 1.5rem;
-    padding-left: 1vh;
-
-}
-/**Footer**/
-footer{
-    margin-top: 2vh;
-}
-}
-.mode{
-    width: 5vh;
-    height: 5vh;
-    border-radius:50%;
-    position: fixed;
-    top: 1vh;
-    right: 1vh;
+.notification-sidebar p{
+    padding-top: 1vh;
+  
   }
-  .dark {
-    background-color: rgb(40, 38, 38);
-    background-image: none;
-    .navbar{
-        background-image: none;
-        background-color: rgb(49, 47, 47);
-    }
-    main{
-        background-image: none;
-        background-color: black;
-    }
-    .box{
-        box-shadow: none;
-    }
-    .sidebar{
-        background-color:rgb(29, 26, 26);
+  .notification-sidebar a{
+      text-decoration: none;
+      color: rgb(49, 48, 48);
+      padding-left: .8vh; 
+  } 
+  
+   .notification-sidebar p:hover{
+      background-color: black;
+      opacity: .8;
+      a{
         color: white;
     }
-    .hero-sec{
-        border: 5px solid black;
-    }
-  }
+      
+      } 
+  
+.about-sidebar{
+    display: inline;
+    border: 1px solid black;
+    height: 13vh;
+    width: 15vh;
+    position:absolute;
+   left: 102.5vh;
+   z-index: 10;
+   top: 11vh;
+   border-radius: 15px;
+   background-color: white;
+  transition: all ease 1s;
+  justify-items: center;
+  align-items: center;
+  transition: all ease 1s;
+  overflow: hidden;
 
-  .next1{
+}
+.about-sidebar p{
+  padding-top: 1vh;
+
+}
+.about-sidebar a{
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+    padding-left: .8vh; 
+}
+
+.about-sidebar p:hover{
+    border: 1px solid black;
+    background-color: rgb(44, 43, 43);
+    opacity: .9;
+   
+    color: white;
+    a{
+        color: white;
+    }
+
+}
+
+.profile-sidebar{
+    display: inline;
+    border: 1px solid black;
+    height: 29vh;
+    width: 12.5vh;
+  position:absolute;
+   left: 120vh;
+   z-index: 10;
+  top: 11vh;
+  border-radius: 15px;
+  background-color: white;
+  transition: all ease 1s;
+  justify-items: center;
+  align-items: center;
+  transition: all ease 1s;
+  overflow: hidden;
+  
+}
+.profile-sidebar p{
+    padding: 1vh .2vh;
+
+}
+.profile-sidebar a{
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+    padding-left: .8vh; 
+}
+
+.profile-sidebar p:hover{
+    border: 1px solid black;
+    background-color: rgb(44, 43, 43);
+    opacity: .9;
+    color: white;
+    a{
+        color: white;
+    }
+
+}
+
+.chats{
+    display: inline;
+    height: 100vh;
+    width: 35vh;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 1vh;
+    z-index: 9;
+    right:0;
+    overflow: scroll;
+    border-radius: 1.5vh;
+    animation-name: chats;
+    animation-duration: 3s;
+    
+}
+@keyframes chats{
+    from{
+        transform: translate(100%,0%);
+    }
+to{
+    transform: translate(0%,00%);
+}
+}
+.chats::-webkit-scrollbar{
+    display: none;
+}
+.close-chats{
+   position: absolute;
+   color: black;
+   background: none; 
+    border: none;
+    font-size: 2.5vh;
+   right: 0;   
+   cursor: pointer;
+
+}
+@keyframes closechats{
+    from{
+        transform: translate(00%,0%);
+    }
+to{
+    transform: translate(100%,00%);
+}
+}
+
+.chat:hover{
+    border: 1px solid black;
+    background-color: #fe0a84;
+}
+.chat{
+    display: flex;   
+}
+.chat .name{
+    padding-top: 3vh;
+    padding-left: 2vh;
+    font-size: 2vh;
+}
+.name .mes p{
+    font-size: 1.5vh;
+    color: #535354;
+    padding-top: .5vh;
+}
+.chats h4{
+    margin-left: 3vh;
+}
+ .chats h2 i{
+    margin-left: 10vh;
+}
+ .chats h2{
+    padding: 3vh 2vh;
+}
+.chats .pp{
+   height:  8vh;
+   width: 8vh;
+}
+.allchats{
+    padding: 2vh 0vh;
+}
+
+.page1{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0 2vw;
+}
+.part2{
+        display: flex;
+        align-items: center;
+         gap: 1vw;
+}
+.part3{
+    padding-right: 8vh;
+}
+h4 a{
+    color: rgb(49, 48, 48);
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+    
+}
+.part2 h4 i{
+    padding-right: 1vh;
+
+}
+
+
+nav h4{
+    padding: 10px 20px;
+    border: 1px solid rgb(85, 68, 68);
+    border-radius: 50px;
+    font-weight: 500;
+    color: rgb(49, 48, 48);
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    transition: all ease 0.4s;
+    
+   
+}
+
+nav h4::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    transition: all ease 0.4s;
+    border: 50%;
+}
+nav h4:hover::after{
+    bottom: 0%;
+
+
+}
+nav a:hover{
+    color: white;
+}
+.hero-shape{
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    background: linear-gradient(#fe0a84,#e779b0);     
+    border-top-left-radius: 50%;
+    border-bottom-left-radius:50% ;
+    right: 0;
+    filter: blur(20px);
+}
+.hero1{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(#fe0a84,#e779b0);          
+     animation: anime1; 
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+}
+.hero2{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(#fe0a84,#e779b0);          
+     animation: anime2; 
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+
+}
+.hero3{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(#fe0a84,#e779b0);     
+     animation: anime3; 
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+
+}
+.hero-shape2{
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    background: linear-gradient(#fe0a84,#e779b0);     
+    border-top-right-radius: 50%;
+    border-bottom-right-radius:50% ;
+    top: 40vh;
+    left: 0;
+    filter: blur(20px);
+}
+.hero4{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(#fe0a84,#e779b0);          
+     animation: anime1; 
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+}
+.hero5{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(#fe0a84,#e779b0);          
+     animation: anime2; 
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+
+}
+.hero6{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(#fe0a84,#e779b0);     
+     animation: anime3; 
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+
+}
+@keyframes anime1{
+    from{
+        transform: translate(50%,-3%);
+    }
+    to{
+        transform: translate(0%,10%);
+    }
+}
+@keyframes anime2{
+    from{
+        transform: translate(50%,-5%);
+    }
+    to{
+        transform: translate(-20%,30%);
+    }
+}
+@keyframes anime3{
+    from{
+        transform: translate(-10%,-5%);
+    }
+    to{
+        transform: translate(10%,-15%);
+    }
+}
+.hero-img{
+    position: relative;
+    background-image: url(hero_1.jpeg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    top: 5vh;
+    border-radius: 20px;
+    
+}
+
+.dots i{
+    position: relative;
+    color: white;
+    left: 40%;
+    margin-right: 10vh;
+    cursor: pointer;
+    margin-top: 65vh;
+   
+}
+.next1{
+    position: relative;
     background-image: url(hero_4.jpeg);
+    width: 100%;
+    height: 70vh;
     background-size: contain;
+    top: 0vh;
+    border-radius: 20px;
+    
+    
     #next1Click{
+        
       background-color: white;
-       width: 1.3vh;
        border-radius: 50%;
         
     }
     
   }
   .next2{
-    background-image: url(hero_2.jpeg);
-    background-size: contain;
+    position: relative;
+    background-image: url(mix3.jpeg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    top: 0vh;
+    border-radius: 20px;
+   
+ 
     #next2Click{
         background-color: white;
-         width: 1.3vh;
          border-radius: 50%;
           
       }
+      
   }
   .next3{
-    background-image: url(hero_3.jpeg);
-    background-size: contain;
+    position: relative;
+    background-image: url(hero_2.jpeg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    top: 0vh;
+    border-radius: 20px;
+ 
     #next3Click{
         background-color: white;
-         width: 1.3vh;
          border-radius: 50%;
           
       }
@@ -967,17 +500,172 @@ footer{
  .next{
     #nextClick{
         background-color: white;
-         width: 1.3vh;
          border-radius: 50%;
-          
-      }
- }
- .followingsB{
+    }
+}
+.dark{
+    background-color: black;
+    h4 a{
+        color: white;
+    }
+    nav h4::after{
+        background-color: white;
+    }
+    nav a:hover{
+        color: black;
+    }
+    .chats{
+        background-color: black;
+        color: white;
+        .close-chats{
+            color: white;
+        }
+        .chat:hover{
+            background-color: #272727;
+        }
+    }
+}
+
+
+.mode{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
     background-color: white;
-        font-size: 1rem;
- }
- .followsB{
+    border: 1px solid rgb(85, 68, 68);
+}
+    
+.page2{
+    min-height: 100vh;
+   width: 100%;
+   padding: 0vw 0;
+   position: relative;
+}
+.profileBoxes{
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+    
+
+}
+.profileBoxes::-webkit-scrollbar{
+    display: none;
+}
+
+
+.con{
+    white-space: nowrap;
+    display: flex;
+    gap: 4vh;
+    padding-left: 4vh;
+}
+
+.box:hover{
+    background-color: black;
+}
+
+.box{
+    height: 30vh;
+    width: 25vh;
+    border: 2px solid black;
+   border-radius: 2vh;
+   justify-content: center;
+   align-items: center;
+   background-color: #232F3E;
+    
+}
+.pp{
+    height: 18vh;
+    width: 18vh;
+    border: 1px solid rgb(251, 248, 248);
+    border-radius: 50%;
+    margin-left:1.6vw;
+    margin-top: 1vw;
+}
+
+.con a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+}
+.info{
+    margin-top: 2vh;
+    margin-left: 6vh;
+}
+
+#followButton{
+    height: 3vh;
+    width: 80%;
+    margin-left: 2vh;
+    border-radius: 2vh;
+    margin-top: 1vh;
     background-color: rgb(90, 189, 225);
-        font-size: 1rem;
- }
- 
+    
+}
+#cross{
+    position: relative;
+    color: white;
+    background-color: #232F3E;
+    border: none;
+    font-size: 2vh;
+    top:-24vh;
+    cursor: pointer;
+}
+.Tejaswa .pp{
+    background-image: url(Mypic.jpeg);
+    background-size: cover;
+}
+.Raju .pp{
+    background-image: url(raju13t.jpeg);
+    background-size: cover;
+}
+.Yugal .pp{
+    background-image: url(yugal9t.jpeg);
+    background-size: cover;
+}
+.Vishwas .pp{
+    background-image: url(vishwas1.jpeg);
+    background-size: cover;
+   
+    
+}
+.Vivek .pp{
+    background-image: url(vivek\ 1t.jpeg);
+    background-size: cover;
+}
+.Pratham .pp{
+    background-image: url(pratham1.jpeg);
+    background-size: cover;
+}
+.Yash .pp{
+    background-image: url(hero.jpeg);
+    background-size: cover;
+}
+
+.gola{
+    height: 32vw;
+    width: 32vw;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(#fe0a84,#e779b0);    
+    top: 40%;
+    left: 25%;
+    /* filter: blur(20px); */
+    animation: gola;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes gola{
+    from{
+        filter: blur(20px);
+        transform: translate(10%,-10%) skew(0deg);
+    }
+    to{
+        filter: blur(30px);
+        transform: translate(-10%,10%)skew(-12deg);
+    }
+}

@@ -985,7 +985,7 @@ a{
 }
 .chats{
     display: inline;
-    height: 25%;
+    height: 35%;
     width: 75%;
     background-color: white;
     border: 2px solid black;
@@ -997,6 +997,8 @@ a{
     border-radius: 1.5vh;
     animation-name: chats;
     animation-duration: 3s;
+
+  
     
 }
   .hero-img{

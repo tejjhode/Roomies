@@ -435,7 +435,7 @@ nav a:hover{
 }
 .hero-img{
     position: relative;
-    background-image: url(hero_1.jpeg);
+    background-image: url(hero_4.jpeg);
     width: 100%;
     height: 70vh;
     background-size: cover;
@@ -455,10 +455,10 @@ nav a:hover{
 }
 .next1{
     position: relative;
-    background-image: url(hero_4.jpeg);
+    background-image: url(hero_1.jpeg);
     width: 100%;
     height: 70vh;
-    background-size: contain;
+    background-size: cover;
     top: 0vh;
     border-radius: 20px;
     
@@ -622,11 +622,11 @@ nav a:hover{
     background-size: cover;
 }
 .Raju .pp{
-    background-image: url(raju13t.jpeg);
+    background-image: url(nizam.jpeg);
     background-size: cover;
 }
 .Yugal .pp{
-    background-image: url(yugal9t.jpeg);
+    background-image: url(khushi.jpeg);
     background-size: cover;
 }
 .Vishwas .pp{
@@ -640,11 +640,11 @@ nav a:hover{
     background-size: cover;
 }
 .Pratham .pp{
-    background-image: url(pratham1.jpeg);
+    background-image: url(raju13t.jpeg);
     background-size: cover;
 }
 .Yash .pp{
-    background-image: url(hero.jpeg);
+    background-image: url(yugal9t.jpeg);
     background-size: cover;
 }
 
@@ -896,6 +896,31 @@ a{
     }
 }
 
+.swiper-slide{
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+.swiper-slide h2 {
+    margin-top: 0;
+  }
+
+  .swiper-slide p {
+    margin-bottom: 10px;
+  }
+
+  .swiper-slide .rating {
+    color: #ff9800;
+    font-size: 24px;
+  }
+
+  .swiper-slide .author {
+    font-style: italic;
+  }
 @media (max-width:600px){
    
 
@@ -1100,3 +1125,4 @@ footer{
     
  }
 }
+
